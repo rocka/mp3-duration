@@ -13,7 +13,7 @@ npm install mp3-duration
 1. JavaScript
 
 ```javascript
-var mp3Duration = require('mp3-duration');
+var mp3Duration = require('@rocka/mp3-duration');
 
 mp3Duration('file.mp3').then(duration => {
   console.log(`Your file is ${duration} seconds long`);
@@ -25,7 +25,7 @@ mp3Duration('file.mp3').then(duration => {
 2. TypeScript
 
 ```typescript
-import mp3Duration = require('mp3-duration');
+import mp3Duration = require('@rocka/mp3-duration');
 
 mp3Duration('file.mp3').then(duration => {
   console.log(`Your file is ${duration} seconds long`);

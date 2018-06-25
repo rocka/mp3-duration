@@ -1,5 +1,5 @@
 {
-  "name": "mp3-duration",
+  "name": "@rocka/mp3-duration",
   "version": "1.1.0",
   "description": "Get the duration of an MP3 file",
   "main": "index.js",
@@ -21,11 +21,14 @@
     "audio"
   ],
   "author": "Han de Boer",
+  "contributors": [
+    "rocka"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ddsol/mp3-duration/issues"
+    "url": "https://github.com/rocka/mp3-duration/issues"
   },
-  "homepage": "https://github.com/ddsol/mp3-duration",
+  "homepage": "https://github.com/rocka/mp3-duration",
   "dependencies": {
     "@types/node": ">=8.0.0"
   },
